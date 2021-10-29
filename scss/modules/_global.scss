@@ -1,0 +1,31 @@
+a {
+    color: #F7C331;
+    font-style: underline;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    margin: 4% 4% !important;
+    li {
+        list-style-type: disc;
+    }
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    width: 100%;
+}
+
+.product-info {
+    padding: 12%;
+}
+
+

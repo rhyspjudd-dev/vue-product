@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
+a {
+  color: #F7C331;
+  font-style: underline;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul {
+  margin: 4% 4% !important;
+}
+
+ul li {
+  list-style-type: disc;
+}
+
+.product-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (50%)[2];
+      grid-template-columns: repeat(2, 50%);
+  width: 100%;
+}
+
+.product-info {
+  padding: 12%;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+button {
+  padding: 2% 8%;
+  margin: 4% 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(aquamarine), to(lightpink));
+  background-image: linear-gradient(to right, aquamarine, lightpink);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.color-box {
+  width: 40px;
+  height: 40px;
+  margin-top: 4%;
+}
+
+nav {
+  height: 10vh;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(aquamarine), to(lightpink));
+  background-image: linear-gradient(to right, aquamarine, lightpink);
+}
+/*# sourceMappingURL=app.css.map */
